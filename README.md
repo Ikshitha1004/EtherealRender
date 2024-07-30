@@ -30,13 +30,13 @@ Follow these steps to set up and run the Vite AI Image Generator:
    ```bash
    git clone https://github.com/yourusername/vite-ai-image-generator.git
    cd vite-ai-image-generator
-   ```
+ 
 2. **Install dependencies**
    ```bash
    npm install
    # or
    yarn install
-   ```
+  
    
 3.**Set Up Environment Variables**
    Create a .env file in the root directory and add the following environment variables:
@@ -44,7 +44,7 @@ Follow these steps to set up and run the Vite AI Image Generator:
       OPENAI_API_KEY=your_openai_api_key_here
       VITE_CLOUDINARY_URL=your_cloudinary_url_here
       MONGODB_URI=your_mongodb_uri_here
-      ```
+     ```
       
 4.**Run the Development Server**
    Start the development server with:
