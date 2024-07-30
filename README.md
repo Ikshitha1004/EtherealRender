@@ -37,6 +37,7 @@ Follow these steps to set up and run the Vite AI Image Generator:
    # or
    yarn install
    ```
+   
 3.**Set Up Environment Variables**
    Create a .env file in the root directory and add the following environment variables:
       ```bash
@@ -44,6 +45,7 @@ Follow these steps to set up and run the Vite AI Image Generator:
       VITE_CLOUDINARY_URL=your_cloudinary_url_here
       MONGODB_URI=your_mongodb_uri_here
       ```
+      
 4.**Run the Development Server**
    Start the development server with:
       ```bash
@@ -51,6 +53,7 @@ Follow these steps to set up and run the Vite AI Image Generator:
       # or
       yarn dev
       ```
+      
 5.**Open in Browser**
    Navigate to http://localhost:5173 (or the port specified in the terminal) to view the application.
 
