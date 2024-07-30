@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Vite AI Image Generator** is a modern web application built with Vite, Tailwind CSS.It geneates images based on user promptsand uses model of gpt-3.5 turbo with OpenAI API. Images thus generated are hosted by Cloudinary.User details are managed with MongoDB.
+**Vite AI Image Generator** is a modern web application built with Vite, Tailwind CSS.It geneates images based on user prompts and it makes use of gpt-3.5 turbo with OpenAI API. Images thus generated are hosted by Cloudinary.User details are managed with MongoDB.
 
 ## Features
 
@@ -32,26 +32,25 @@ Follow these steps to set up and run the Vite AI Image Generator:
    cd vite-ai-image-generator
    ```
 2. **Install dependencies**
-```bash
-npm install
-# or
-yarn install
-```
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 3.**Set Up Environment Variables**
 Create a .env file in the root directory and add the following environment variables:
-
-```bash
-OPENAI_API_KEY=your_openai_api_key_here
-VITE_CLOUDINARY_URL=your_cloudinary_url_here
-MONGODB_URI=your_mongodb_uri_here
-```
+   ```bash
+   OPENAI_API_KEY=your_openai_api_key_here
+   VITE_CLOUDINARY_URL=your_cloudinary_url_here
+   MONGODB_URI=your_mongodb_uri_here
+   ```
 4.**Run the Development Server**
 Start the development server with:
-```bash
-npm run dev
-# or
-yarn dev
-```
-Open in Browser
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+5.**Open in Browser**
 Navigate to http://localhost:3000 (or the port specified in the terminal) to view the application.
 
